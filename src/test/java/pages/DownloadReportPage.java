@@ -1,5 +1,6 @@
 package pages;
 
+import config.Reporter;
 import org.openqa.selenium.WebElement;
 import pageFactory.PageFactoryInitializer;
 import org.openqa.selenium.By;
@@ -9,22 +10,22 @@ import utils.GenericMethods;
 import org.openqa.selenium.support.ui.Select;
 public class DownloadReportPage extends PageFactoryInitializer {
 
-    private By downloadReportPageHeader = By.xpath("//h1[normalize-space()='The Total Economic Impact™ of Entrata']");
-    private By emptyFieldError = By.xpath("//div[normalize-space()='This field is required.']");
-    private WebElement unitCountDropdown = getWebDriver().findElement(By.id("Unit_Count__c"));
-    private By scheduleDemoCheckbox = By.xpath("//input[@name='demoRequestCheckbox']");
+    private static By downloadReportPageHeader = By.xpath("//h1[normalize-space()='The Total Economic Impact™ of Entrata']");
+    private static By watchReportPageHeader = By.xpath("//h2[normalize-space()='The Total Economic Impact™ of Entrata']");
+    private static By emptyFieldError = By.xpath("//div[normalize-space()='This field is required.']");
+    private static By scheduleDemoCheckbox = By.xpath("//input[@name='demoRequestCheckbox']");
 
     /*
     * This method is used to click and enter value in textboxes
      */
-    public void enterTextByPlaceholder(String placeholder, String value) {
-        ExplicitWaiting.waitForSeconds(10);
+    public static void enterTextByPlaceholder(String placeholder, String value) {
+        ExplicitWaiting.waitForPageLoaded(getWebDriver());
+
         // Create a dynamic XPath using the provided placeholder
         By dynamicInputTextBox = By.xpath("//input[@placeholder='" + placeholder + "']");
 
         // Click the input text box
         Element.clickUsingBy(dynamicInputTextBox, placeholder);
-        ExplicitWaiting.waitForSeconds(10);
 
         // Enter the specified value
         Element.enterText(dynamicInputTextBox, value, placeholder);
@@ -33,13 +34,30 @@ public class DownloadReportPage extends PageFactoryInitializer {
     /*
     * verify download report page/tab opens
      */
-    public boolean verifyDownloadReportPage() {
-        GenericMethods.switchToNewlyOpenedWindow();
-        ExplicitWaiting.waitForSeconds(10);
-        if(Element.isVisibleUsingBy(downloadReportPageHeader, "Download Report page Heading")){
+    public static boolean verifyDownloadReportPage() {
+        ExplicitWaiting.waitForPageLoaded(getWebDriver());
+
+        if (Element.isListVisibleUsingByWithoutFailedMSG(downloadReportPageHeader, "Download Report page Heading")) {
             return true;
         }
-        else {
+        else if (Element.isListVisibleUsingByWithoutFailedMSG(watchReportPageHeader, "Watch Report page Heading")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static boolean verifyDownloadReportTab() {
+        GenericMethods.switchToNewlyOpenedWindow();
+        ExplicitWaiting.waitForPageLoaded(getWebDriver());
+
+//        ExplicitWaiting.waitForSeconds(5);
+        if (Element.isListVisibleUsingByWithoutFailedMSG(downloadReportPageHeader, "Download Report page Heading")) {
+            return true;
+        }
+        else if (Element.isListVisibleUsingByWithoutFailedMSG(watchReportPageHeader, "Watch Report page Heading")) {
+            return true;
+        } else {
             return false;
         }
     }
@@ -47,9 +65,9 @@ public class DownloadReportPage extends PageFactoryInitializer {
     /*
     * verify error for empty/blank fields
      */
-    public boolean verifyErrorForEmptyField() {
-        ExplicitWaiting.waitForSeconds(10);
-        if(Element.isVisibleUsingBy(emptyFieldError, "Empty Field Error")){
+    public static boolean verifyErrorForEmptyField() {
+        ExplicitWaiting.waitForPageLoaded(getWebDriver());
+        if(Element.isListVisibleUsingByWithoutFailedMSG(emptyFieldError, "Empty Field Error")){
             return true;
         }
         else {
@@ -60,8 +78,12 @@ public class DownloadReportPage extends PageFactoryInitializer {
     /*
     * This method is used to select option from Unit dropdown
      */
-    public void selectDropdownOption(String visibleText) {
-        ExplicitWaiting.waitForSeconds(10);
+    public static void selectDropdownOption(String visibleText) {
+        ExplicitWaiting.waitForPageLoaded(getWebDriver());
+
+        WebElement unitCountDropdown = getWebDriver().findElement(By.id("Unit_Count__c"));
+        ExplicitWaiting.waitForSeconds(5);
+
         // Create a Select object
         Select select = new Select(unitCountDropdown);
 
@@ -76,8 +98,22 @@ public class DownloadReportPage extends PageFactoryInitializer {
     /*
     * Accept checkbox of schedule demo for entrata product
      */
-    public void selectCheckbox(){
-        ExplicitWaiting.waitForSeconds(10);
+    public static void selectCheckbox(){
+        ExplicitWaiting.waitForPageLoaded(getWebDriver());
+
         Element.clickAction(scheduleDemoCheckbox, "Schedule Demo Checkbox");
+    }
+
+    /*
+    *This method is used to verify which page opened on new tab
+     */
+    public static String verifyOpenedPage(){
+        if (Element.isVisibleWithoutFailedMsg(watchReportPageHeader, "Watch Report page Heading")) {
+            return "Watch";
+        } else if (Element.isVisibleWithoutFailedMsg(downloadReportPageHeader, "Download Report page Heading")) {
+            return "Download";
+        } else {
+            return "Not Valid";
+        }
     }
 }

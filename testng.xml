@@ -5,12 +5,13 @@
     <listeners>
         <listener class-name="config.Listeners" />
     </listeners>
-    <test name="Test_Parallel" thread-count="1" parallel="classes" enabled="true">
+    <test name="Test_Parallel_entrata" thread-count="1" parallel="classes" enabled="true">
         <classes>
-<!--            <class name="entrata_tests.CheckBrokenLinkOfPageTest"></class>-->
+            <class name="entrata_tests.CheckBrokenLinkOfPageTest"></class>
+            <class name="entrata_tests.HomePageTest"></class>
+            <class name="entrata_tests.LoginTest"></class>
             <class name="entrata_tests.DownloadReportTest"/>
-<!--            <class name="entrata_tests.LoginTest"></class>-->
-<!--            <class name="entrata_tests.HomePageTest"></class>-->
+
         </classes>
     </test>
 </suite>

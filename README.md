@@ -28,20 +28,20 @@ Navigate to ./Reports and open the report you want
 
 # Prerequisite:
 1. [Selenium WebDriver](http://www.seleniumhq.org/) 
-2.  [Java 8](https://www.java.com/en/download/)
+2.  [Java 17 / above 11](https://www.java.com/en/download/)
 3. [Maven](https://maven.apache.org/download.cgi?Preferred=ftp://ftp.osuosl.org/pub/apache/) 
 
 # How to use the Framework
 ### 1. USING MAVEN
 ```sh
-$ git clone <https://github.com/TestrigTechnologies/Ribbon_New.git>
+$ git clone <https:https://github.com/akshay3799-g/Selenium_Java_TestNG>
 ```
 ```sh
 $ mvn clean test
 ```
 ```
 ### Browser Setup
-- Navigate to *EntrataSeleniumTest\src\main\resources* change *BrowserType* in the application.properties or use Maven to invoke different browsers
+- Navigate to *EntrataSeleniumTest\src\main\resources\application.properties* change *BrowserType* in the application.properties or use Maven to invoke different browsers
 ```
 ```sh
 $ mvn clean test -DBrowserType=Chrome #Chrome
@@ -54,6 +54,13 @@ $ mvn clean test -DBrowserType=iPadMini #iPadMini Resolution
 $ mvn clean test -DBrowserType=iPadMini_Headless #iPadMini Resolution - Headless
 $ mvn clean test -DBrowserType=iPadPro #iPadPro Resolution
 $ mvn clean test -DBrowserType=iPadPro_Headless #iPadPro  Resolution - Headless
+```
+To run all test
+1. Go to root folder
+2. In testng.xml update thread count if want to run parallel test
+3. we can run testng.xml file with mentioned classes or can run below command
+```sh
+$ mvn verify
 ```
 
 ### 2. USING IDE(e.g. Eclipse or IntelliJ IDEA)
@@ -84,3 +91,9 @@ $ mvn site
 - **Logs** - auto generate and store logs of test.
 - **Reports** - auto generate and store extent html report.
 - **screenshots** - if test failed capture screenshot and store here then use in report as well.
+- **.github** - it contains workflow folder with yml file which will auto trigger github action when code push to main branch
+ 
+**~~NOTE~~:** 
+- Seems like page loading in this website is slow, so if test fails due to page loading, please increase it from Element class with static varible 'waitInSeconds', and from ExplicitWaitng class from method 'waitForPageLoaded()'.
+- Generated extent html report contains screenshot of failed test cases, in case if not able to see it then please open report from file explorer becuase if tries to open from IDE directly it may load from localhost and screenshot will not be visible.
+

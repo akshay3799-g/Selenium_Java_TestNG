@@ -1,40 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 8, Errors: 0, Skipped: 10, Time elapsed: 1.17 s <<< FAILURE! - in TestSuite
-beforeMethod(entrata_tests.CheckBrokenLinkOfPageTest)  Time elapsed: 0.659 s  <<< FAILURE!
-org.testng.TestNGException: 
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 605.583 s <<< FAILURE! - in TestSuite
+verifyHomePageNavigations(entrata_tests.HomePageTest)  Time elapsed: 217.669 s  <<< FAILURE!
+java.lang.AssertionError: 
 
-Parameter 'browser' is required by BeforeClass on method beforeMethod but has not been marked @Optional or defined
+Expecting value to be true but was false
+	at entrata_tests.HomePageTest.verifyHomePageNavigations(HomePageTest.java:47)
 
+verifyDownloadReportInvalidData(entrata_tests.LoginTest)  Time elapsed: 53.323 s  <<< FAILURE!
+java.lang.AssertionError: 
 
-afterMethod(entrata_tests.CheckBrokenLinkOfPageTest)  Time elapsed: 0.004 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because the return value of "base.WebDriverFactory.getWebDriver()" is null
-
-beforeMethod(entrata_tests.DownloadReportTest)  Time elapsed: 0.008 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'browser' is required by BeforeClass on method beforeMethod but has not been marked @Optional or defined
-
-
-afterMethod(entrata_tests.DownloadReportTest)  Time elapsed: 0.002 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because the return value of "base.WebDriverFactory.getWebDriver()" is null
-
-beforeMethod(entrata_tests.HomePageTest)  Time elapsed: 0.003 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'browser' is required by BeforeClass on method beforeMethod but has not been marked @Optional or defined
-
-
-afterMethod(entrata_tests.HomePageTest)  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because the return value of "base.WebDriverFactory.getWebDriver()" is null
-
-beforeMethod(entrata_tests.LoginTest)  Time elapsed: 0.004 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'browser' is required by BeforeClass on method beforeMethod but has not been marked @Optional or defined
-
-
-afterMethod(entrata_tests.LoginTest)  Time elapsed: 0.003 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because the return value of "base.WebDriverFactory.getWebDriver()" is null
+Expecting value to be true but was false
+	at entrata_tests.LoginTest.verifyDownloadReportInvalidData(LoginTest.java:63)
 

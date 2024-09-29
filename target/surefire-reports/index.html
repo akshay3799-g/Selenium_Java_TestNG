@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-skipped">Surefire suite</span>
+            <a href="#" panel-name="suite-Entrata_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Entrata Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
-                    <span>[unset file name]</span>
+                  <a href="#" panel-name="test-xml-Entrata_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Admin\Desktop\EntrataSeleniumTest\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Entrata_Test_Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Entrata_Test_Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Entrata_Test_Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Entrata_Test_Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Entrata_Test_Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Entrata_Test_Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,46 +92,50 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,  6 skipped,  </span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Entrata_Test_Suite" class="hide-methods failed suite-Entrata_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Entrata_Test_Suite -->
+                      <a href="#" panel-name="suite-Entrata_Test_Suite" class="show-methods failed suite-Entrata_Test_Suite"> (show)</a> <!-- show-methods failed suite-Entrata_Test_Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Surefire_suite">
+                    <div class="method-list-content failed suite-Entrata_Test_Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="entrata_tests.CheckBrokenLinkOfPageTest" class="method navigator-link" hash-for-method="verifyBrokenLinkFromPage">verifyBrokenLinkFromPage</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Entrata_Test_Suite" title="entrata_tests.LoginTest" class="method navigator-link" hash-for-method="verifyDownloadReportInvalidData">verifyDownloadReportInvalidData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="entrata_tests.LoginTest" class="method navigator-link" hash-for-method="verifyDownloadReport">verifyDownloadReport</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Entrata_Test_Suite" title="entrata_tests.HomePageTest" class="method navigator-link" hash-for-method="verifyHomePageNavigations">verifyHomePageNavigations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Entrata_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Entrata_Test_Suite" class="hide-methods passed suite-Entrata_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Entrata_Test_Suite -->
+                      <a href="#" panel-name="suite-Entrata_Test_Suite" class="show-methods passed suite-Entrata_Test_Suite"> (show)</a> <!-- show-methods passed suite-Entrata_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Entrata_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Entrata_Test_Suite" title="entrata_tests.CheckBrokenLinkOfPageTest" class="method navigator-link" hash-for-method="verifyBrokenLinkFromPage">verifyBrokenLinkFromPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="entrata_tests.DownloadReportTest" class="method navigator-link" hash-for-method="verifyDownloadReport">verifyDownloadReport</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Entrata_Test_Suite" title="entrata_tests.DownloadReportTest" class="method navigator-link" hash-for-method="verifyDownloadReport">verifyDownloadReport</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="entrata_tests.DownloadReportTest" class="method navigator-link" hash-for-method="verifyDownloadReportInvalidData">verifyDownloadReportInvalidData</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Entrata_Test_Suite" title="entrata_tests.DownloadReportTest" class="method navigator-link" hash-for-method="verifyDownloadReportInvalidData">verifyDownloadReportInvalidData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="entrata_tests.LoginTest" class="method navigator-link" hash-for-method="verifyDownloadReportInvalidData">verifyDownloadReportInvalidData</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="entrata_tests.HomePageTest" class="method navigator-link" hash-for-method="verifyHomePageNavigations">verifyHomePageNavigations</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                    </div> <!-- method-list-content passed suite-Entrata_Test_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -142,71 +146,64 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-skipped">
+        <div panel-name="suite-Entrata_Test_Suite" class="panel Entrata_Test_Suite">
+          <div class="suite-Entrata_Test_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">entrata_tests.CheckBrokenLinkOfPageTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">entrata_tests.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyBrokenLinkFromPage">
-                  </a> <!-- verifyBrokenLinkFromPage -->
-                  <span class="method-name">verifyBrokenLinkFromPage</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method beforeMethod but has not been marked @Optional or defined
-
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
+                  <a name="verifyHomePageNavigations">
+                  </a> <!-- verifyHomePageNavigations -->
+                  <span class="method-name">verifyHomePageNavigations</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expecting value to be true but was false
+	at entrata_tests.HomePageTest.verifyHomePageNavigations(HomePageTest.java:47)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
 </div> <!-- stack-trace -->
                   <em>
-(Verify the broken links from page)                  </em>
+(Verify the pages navigation)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-skipped -->
-          <div class="suite-Surefire_suite-class-skipped">
+          </div> <!-- suite-Entrata_Test_Suite-class-failed -->
+          <div class="suite-Entrata_Test_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">entrata_tests.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyDownloadReport">
-                  </a> <!-- verifyDownloadReport -->
-                  <span class="method-name">verifyDownloadReport</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method beforeMethod but has not been marked @Optional or defined
-
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Verify login as Property Manager)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifyDownloadReportInvalidData">
                   </a> <!-- verifyDownloadReportInvalidData -->
                   <span class="method-name">verifyDownloadReportInvalidData</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method beforeMethod but has not been marked @Optional or defined
-
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expecting value to be true but was false
+	at entrata_tests.LoginTest.verifyDownloadReportInvalidData(LoginTest.java:63)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (Verify the login as Resident User)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-skipped -->
-          <div class="suite-Surefire_suite-class-skipped">
+          </div> <!-- suite-Entrata_Test_Suite-class-failed -->
+          <div class="suite-Entrata_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">entrata_tests.DownloadReportTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -215,12 +212,6 @@ Parameter &apos;browser&apos; is required by BeforeClass on method beforeMethod 
                   <a name="verifyDownloadReport">
                   </a> <!-- verifyDownloadReport -->
                   <span class="method-name">verifyDownloadReport</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method beforeMethod but has not been marked @Optional or defined
-
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
                   <em>
 (Verify the download report functionality)                  </em>
                 </div> <!-- method-content -->
@@ -230,144 +221,133 @@ Parameter &apos;browser&apos; is required by BeforeClass on method beforeMethod 
                   <a name="verifyDownloadReportInvalidData">
                   </a> <!-- verifyDownloadReportInvalidData -->
                   <span class="method-name">verifyDownloadReportInvalidData</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method beforeMethod but has not been marked @Optional or defined
-
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
                   <em>
 (Verify the error shown when submit form with empty fields)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-skipped -->
-          <div class="suite-Surefire_suite-class-skipped">
+          </div> <!-- suite-Entrata_Test_Suite-class-passed -->
+          <div class="suite-Entrata_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">entrata_tests.HomePageTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">entrata_tests.CheckBrokenLinkOfPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyHomePageNavigations">
-                  </a> <!-- verifyHomePageNavigations -->
-                  <span class="method-name">verifyHomePageNavigations</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method beforeMethod but has not been marked @Optional or defined
-
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
+                  <a name="verifyBrokenLinkFromPage">
+                  </a> <!-- verifyBrokenLinkFromPage -->
+                  <span class="method-name">verifyBrokenLinkFromPage</span>
                   <em>
-(Verify the pages navigation)                  </em>
+(Verify the broken links from page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-skipped -->
-        </div> <!-- panel Surefire_suite -->
-        <div panel-name="test-xml-Surefire_suite" class="panel">
+          </div> <!-- suite-Entrata_Test_Suite-class-passed -->
+        </div> <!-- panel Entrata_Test_Suite -->
+        <div panel-name="test-xml-Entrata_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\Desktop\EntrataSeleniumTest\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+&lt;suite data-provider-thread-count=&quot;1&quot; name=&quot;Entrata Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;config.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Test_Parallel_entrata&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;entrata_tests.CheckBrokenLinkOfPageTest&quot;/&gt;
-      &lt;class name=&quot;entrata_tests.DownloadReportTest&quot;/&gt;
       &lt;class name=&quot;entrata_tests.HomePageTest&quot;/&gt;
       &lt;class name=&quot;entrata_tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;entrata_tests.DownloadReportTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Surefire test --&gt;
-&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+  &lt;/test&gt; &lt;!-- Test_Parallel_entrata --&gt;
+&lt;/suite&gt; &lt;!-- Entrata Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Surefire_suite" class="panel">
+        <div panel-name="testlist-Entrata_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Surefire suite</span>
+            <span class="header-content">Tests for Entrata Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (4 classes)</span>
+                <span class="test-name">Test_Parallel_entrata (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Surefire_suite" class="panel">
+        <div panel-name="group-Entrata_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Surefire suite</span>
+            <span class="header-content">Groups for Entrata Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Surefire_suite" class="panel">
+        <div panel-name="times-Entrata_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Surefire suite</span>
+            <span class="header-content">Times for Entrata Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Surefire_suite');
-function tableData_Surefire_suite() {
+suiteTableInitFunctions.push('tableData_Entrata_Test_Suite');
+function tableData_Entrata_Test_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyDownloadReportInvalidData')
+data.setCell(0, 1, 'verifyDownloadReport')
 data.setCell(0, 2, 'entrata_tests.DownloadReportTest')
-data.setCell(0, 3, 1);
+data.setCell(0, 3, 253814);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyHomePageNavigations')
-data.setCell(1, 2, 'entrata_tests.HomePageTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 1, 'verifyDownloadReportInvalidData')
+data.setCell(1, 2, 'entrata_tests.DownloadReportTest')
+data.setCell(1, 3, 247276);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyBrokenLinkFromPage')
-data.setCell(2, 2, 'entrata_tests.CheckBrokenLinkOfPageTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'verifyHomePageNavigations')
+data.setCell(2, 2, 'entrata_tests.HomePageTest')
+data.setCell(2, 3, 217444);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyDownloadReport')
+data.setCell(3, 1, 'verifyDownloadReportInvalidData')
 data.setCell(3, 2, 'entrata_tests.LoginTest')
-data.setCell(3, 3, 0);
+data.setCell(3, 3, 51331);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyDownloadReportInvalidData')
-data.setCell(4, 2, 'entrata_tests.LoginTest')
-data.setCell(4, 3, 0);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyDownloadReport')
-data.setCell(5, 2, 'entrata_tests.DownloadReportTest')
-data.setCell(5, 3, 0);
-window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+data.setCell(4, 1, 'verifyBrokenLinkFromPage')
+data.setCell(4, 2, 'entrata_tests.CheckBrokenLinkOfPageTest')
+data.setCell(4, 3, 36277);
+window.suiteTableData['Entrata_Test_Suite']= { tableData: data, tableDiv: 'times-div-Entrata_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 ms</span>
-              <div id="times-div-Surefire_suite">
-              </div> <!-- times-div-Surefire_suite -->
+              <span class="suite-total-time">Total running time: 13 minutes</span>
+              <div id="times-div-Entrata_Test_Suite">
+              </div> <!-- times-div-Entrata_Test_Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Surefire_suite" class="panel">
+        <div panel-name="reporter-Entrata_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Surefire suite</span>
+            <span class="header-content">Reporter output for Entrata Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+        <div panel-name="ignored-methods-Entrata_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">entrata_tests.LoginTest</span>
+              <span class="ignored-class-name">entrata_tests.HomePageTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">setupConfig</span>
                 <br/>
@@ -381,7 +361,7 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">entrata_tests.HomePageTest</span>
+              <span class="ignored-class-name">entrata_tests.LoginTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">setupConfig</span>
                 <br/>
@@ -389,7 +369,7 @@ return data;
             </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Surefire_suite" class="panel">
+        <div panel-name="chronological-Entrata_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -400,38 +380,114 @@ return data;
                 <span class="method-name">setupConfig</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">277 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">entrata_tests.DownloadReportTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">277 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">entrata_tests.CheckBrokenLinkOfPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loginAsBuyer</span>
+                <span class="method-start">3116 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">entrata_tests.DownloadReportTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">loginAsBuyer</span>
+                <span class="method-start">3212 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDownloadReport</span>
+                <span class="method-start">46845 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">entrata_tests.CheckBrokenLinkOfPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyBrokenLinkFromPage</span>
+                <span class="method-start">49341 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-class after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">85621 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">entrata_tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">85989 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginAsBuyer</span>
+                <span class="method-start">87682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">verifyHomePageNavigations</span>
+                <span class="method-start">131112 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">entrata_tests.DownloadReportTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">loginAsBuyer</span>
+                <span class="method-start">300660 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">entrata_tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">129 ms</span>
+                <span class="method-start">348782 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">entrata_tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">349256 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginAsBuyer</span>
+                <span class="method-start">350627 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">entrata_tests.DownloadReportTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyDownloadReportInvalidData</span>
+                <span class="method-start">356129 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">entrata_tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyDownloadReportInvalidData</span>
+                <span class="method-start">393160 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">446484 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">entrata_tests.DownloadReportTest</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">139 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">entrata_tests.HomePageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">144 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">entrata_tests.LoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">153 ms</span>
+                <span class="method-start">603406 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

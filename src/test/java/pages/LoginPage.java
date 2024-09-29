@@ -25,7 +25,7 @@ public class LoginPage extends PageFactoryInitializer {
      */
     public boolean verifyUserRedirectsToCorrectPage(String type) {
         ExplicitWaiting.waitForPageLoaded(getWebDriver());
-        ExplicitWaiting.waitForSeconds(10);
+
         String expectedSignInTitle = "Entrata Sign In";
         String expectedResidentTitle = "Welcome to the Resident Portal App";
         String actualTitle = getWebDriver().getTitle();
@@ -33,7 +33,8 @@ public class LoginPage extends PageFactoryInitializer {
 
         switch (type.toLowerCase()) {
             case "login":
-                ExplicitWaiting.waitForSeconds(10);
+                ExplicitWaiting.waitForPageLoaded(getWebDriver());
+
                 if (expectedSignInTitle.equalsIgnoreCase(actualTitle)) {
                     Reporter.info("User is on Login Page");
                     return true;
@@ -43,7 +44,8 @@ public class LoginPage extends PageFactoryInitializer {
                 }
 
             case "resident":
-                ExplicitWaiting.waitForSeconds(10);
+                ExplicitWaiting.waitForPageLoaded(getWebDriver());
+
                 if (expectedResidentTitle.equalsIgnoreCase(actualTitle)) {
                     Reporter.info("User is on Resident Login Page");
                     return true;
@@ -53,8 +55,9 @@ public class LoginPage extends PageFactoryInitializer {
                 }
 
             case "property":
-                ExplicitWaiting.waitForSeconds(10);
-                if (Element.isVisibleUsingBy(propertySignInPageHeader, "Sign In Header Of Property")) {
+                ExplicitWaiting.waitForPageLoaded(getWebDriver());
+
+                if (Element.isVisibleWithoutFailedMsg(propertySignInPageHeader, "Sign In Header Of Property")) {
                     Reporter.info("User is on Property Login Page");
                     return true;
                 } else {
@@ -63,25 +66,30 @@ public class LoginPage extends PageFactoryInitializer {
                 }
 
             case "scheduledemo":
-                ExplicitWaiting.waitForSeconds(10);
+                ExplicitWaiting.waitForPageLoaded(getWebDriver());
+
                 try {
-                    if (Element.isVisibleUsingBy(scheduleDemoPageHeader, "Schedule Demo Header")) {
-                        Reporter.info("User is on Schedule demo Page");
-                        return true;
-                    } else {
-                        Reporter.info("User redirects to " + actualTitle + " instead of Schedule demo page");
-                        return false;
-                    }
-                }
-                catch (Exception e){
+                    // Switch to the newly opened window
                     GenericMethods.switchToNewlyOpenedWindow();
                     ExplicitWaiting.waitForPageLoaded(getWebDriver());
-                    ExplicitWaiting.waitForSeconds(10);
-                    if (Element.isVisibleUsingBy(scheduleDemoPageHeader, "Schedule Demo Header")) {
-                        Reporter.info("User is on Schedule demo Page");
+
+                    // Check if the user is on the Schedule Demo page
+                    if (Element.isVisibleWithoutFailedMsg(scheduleDemoPageHeader, "Schedule Demo Header")) {
+                        Reporter.info("User is on Schedule Demo Page");
                         return true;
                     } else {
-                        Reporter.info("User redirects to " + actualTitle + " instead of Schedule demo page");
+                        Reporter.info("User redirects to " + actualTitle + " instead of Schedule Demo page");
+                        return false;
+                    }
+                } catch (Exception e) {
+                    // If an exception occurs, check the same visibility
+                    ExplicitWaiting.waitForPageLoaded(getWebDriver());
+
+                    if (Element.isVisibleWithoutFailedMsg(scheduleDemoPageHeader, "Schedule Demo Header")) {
+                        Reporter.info("User is on Schedule Demo Page");
+                        return true;
+                    } else {
+                        Reporter.info("User redirects to " + actualTitle + " instead of Schedule Demo page");
                         return false;
                     }
                 }
@@ -97,7 +105,9 @@ public class LoginPage extends PageFactoryInitializer {
      * This method is used to login page based on user type
      * @param type
      */public void openLoginPage(String type){
-        ExplicitWaiting.waitForSeconds(10);
+        ExplicitWaiting.waitForPageLoaded(getWebDriver());
+
+        CommonMethod.scrollDown(200);
         if(type.equalsIgnoreCase("property")){
             Element.clickUsingBy(propertyLoginOption, "Property Manager Login Button");
         } else if (type.equalsIgnoreCase("resident")) {
@@ -113,11 +123,12 @@ public class LoginPage extends PageFactoryInitializer {
      * @param type
      */
     public boolean verifyOptionsOfResidentLogin(String type){
-        ExplicitWaiting.waitForSeconds(10);
+        ExplicitWaiting.waitForPageLoaded(getWebDriver());
+
         if(type.equalsIgnoreCase("app")){
             return Element.isVisibleUsingBy(viewAppButton, "View App Button");
         } else if (type.equalsIgnoreCase("website")) {
-            return Element.isVisibleUsingBy(viewInWebsiteButton, "View In Website Button");
+            return Element.isVisibleWithoutFailedMsg(viewInWebsiteButton, "View In Website Button");
         }
         else {
             Reporter.info("Please provide valid type to check on resident login");
@@ -129,8 +140,9 @@ public class LoginPage extends PageFactoryInitializer {
      * This method is used to verify error for Invalid login attempt
      */
     public boolean verifyErrorForInvalidLogin() {
-        ExplicitWaiting.waitForSeconds(10);
-        if(Element.isVisibleUsingBy(loginErrorText, "Login error message")){
+        ExplicitWaiting.waitForPageLoaded(getWebDriver());
+
+        if(Element.isVisibleWithoutFailedMsg(loginErrorText, "Login error message")){
             return true;
         }
         else {
@@ -142,19 +154,20 @@ public class LoginPage extends PageFactoryInitializer {
     *This method is created for go back from property login page
      */
     public void goToWebsite(int attempts) {
+        ExplicitWaiting.waitForPageLoaded(getWebDriver());
         // Base case: limit the number of attempts to avoid infinite recursion
         if (attempts <= 0) {
             System.out.println("Max attempts reached. Unable to reach login page.");
             return;
         }
 
-        ExplicitWaiting.waitForSeconds(10);
+        ExplicitWaiting.waitForPageLoaded(getWebDriver());
         GenericMethods.back();
 
         if (Element.isVisibleUsingBy(propertyLoginOption, "Resident login option")) {
             Reporter.info("Reached login page");
         } else {
-            ExplicitWaiting.waitForSeconds(10); // Optional wait before next attempt
+            ExplicitWaiting.waitForSeconds(5); // Optional wait before next attempt
             goToWebsite(attempts - 1); // Recursive call with decremented attempts
         }
     }
