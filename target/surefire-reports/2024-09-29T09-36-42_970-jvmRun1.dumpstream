@@ -1,0 +1,379 @@
+# Created at 2024-09-29T09:45:50.770
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2024-09-29T09:46:03.426
+Unexpected IOException with stream: 2024-09-29 09:46:03 INFO  entrata_tests.DownloadReportTest :91 - Download report section is not Displayed
+
+
+# Created at 2024-09-29T09:46:03.430
+Unexpected IOException with stream: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h3[normalize-space()='Worried about making the switch?'] (tried for 15 second(s) with 500 milliseconds interval)
+
+# Created at 2024-09-29T09:46:03.431
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.431
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+
+# Created at 2024-09-29T09:46:03.432
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.432
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+
+# Created at 2024-09-29T09:46:03.433
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.433
+Unexpected IOException with stream: 	at utils.ExplicitWaiting.explicitWaitVisibilityOfElement(ExplicitWaiting.java:148)
+
+# Created at 2024-09-29T09:46:03.434
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.434
+Unexpected IOException with stream: 	at utils.Element.isVisibleUsingBy(Element.java:138)
+
+# Created at 2024-09-29T09:46:03.435
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.435
+Unexpected IOException with stream: 	at pages.HomePage.gotoDownloadReportSection(HomePage.java:137)
+
+# Created at 2024-09-29T09:46:03.436
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.437
+Unexpected IOException with stream: 	at pages.HomePage.gotoDownloadReportSection(HomePage.java:141)
+
+# Created at 2024-09-29T09:46:03.437
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.438
+Unexpected IOException with stream: 	at pages.HomePage.gotoDownloadReportSection(HomePage.java:141)
+
+# Created at 2024-09-29T09:46:03.438
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.439
+Unexpected IOException with stream: 	at pages.HomePage.gotoDownloadReportSection(HomePage.java:141)
+
+# Created at 2024-09-29T09:46:03.439
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.439
+Unexpected IOException with stream: 	at pages.HomePage.gotoDownloadReportSection(HomePage.java:141)
+
+# Created at 2024-09-29T09:46:03.440
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.440
+Unexpected IOException with stream: 	at entrata_tests.DownloadReportTest.verifyDownloadReportInvalidData(DownloadReportTest.java:55)
+
+# Created at 2024-09-29T09:46:03.441
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.441
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2024-09-29T09:46:03.442
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.442
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+# Created at 2024-09-29T09:46:03.442
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.443
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2024-09-29T09:46:03.443
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.443
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+# Created at 2024-09-29T09:46:03.444
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.445
+Unexpected IOException with stream: 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+
+# Created at 2024-09-29T09:46:03.445
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.446
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+
+# Created at 2024-09-29T09:46:03.446
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.447
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+
+# Created at 2024-09-29T09:46:03.447
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.448
+Unexpected IOException with stream: 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+
+# Created at 2024-09-29T09:46:03.448
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.449
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+
+# Created at 2024-09-29T09:46:03.449
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.450
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+
+# Created at 2024-09-29T09:46:03.450
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.451
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+
+# Created at 2024-09-29T09:46:03.451
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.452
+Unexpected IOException with stream: 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+
+# Created at 2024-09-29T09:46:03.452
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.452
+Unexpected IOException with stream: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+
+# Created at 2024-09-29T09:46:03.453
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.453
+Unexpected IOException with stream: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+
+# Created at 2024-09-29T09:46:03.454
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.454
+Unexpected IOException with stream: 	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+
+# Created at 2024-09-29T09:46:03.455
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.455
+Unexpected IOException with stream: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+
+# Created at 2024-09-29T09:46:03.456
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.456
+Unexpected IOException with stream: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+
+# Created at 2024-09-29T09:46:03.456
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.457
+Unexpected IOException with stream: 	at java.base/java.lang.Thread.run(Thread.java:833)
+
+# Created at 2024-09-29T09:46:03.457
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.458
+Unexpected IOException with stream: Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.184)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [115af771df6a1fcdb524dc02d107f7b9, findElement {value=//h3[normalize-space()='Worried about making the switch?'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64699/devtoo..., se:cdpVersion: 121.0.6167.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 115af771df6a1fcdb524dc02d107f7b9
+
+# Created at 2024-09-29T09:46:03.458
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.459
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2024-09-29T09:46:03.460
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.460
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+
+# Created at 2024-09-29T09:46:03.461
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.461
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2024-09-29T09:46:03.462
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.463
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+
+# Created at 2024-09-29T09:46:03.464
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.465
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+
+# Created at 2024-09-29T09:46:03.466
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.467
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+
+# Created at 2024-09-29T09:46:03.467
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.468
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+
+# Created at 2024-09-29T09:46:03.469
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.469
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+
+# Created at 2024-09-29T09:46:03.470
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.470
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+
+# Created at 2024-09-29T09:46:03.471
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.471
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+
+# Created at 2024-09-29T09:46:03.471
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.472
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+
+# Created at 2024-09-29T09:46:03.472
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.472
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+
+# Created at 2024-09-29T09:46:03.473
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.474
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+
+# Created at 2024-09-29T09:46:03.474
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.475
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+
+# Created at 2024-09-29T09:46:03.475
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.475
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+
+# Created at 2024-09-29T09:46:03.477
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.477
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+
+# Created at 2024-09-29T09:46:03.478
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.478
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+
+# Created at 2024-09-29T09:46:03.479
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.479
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+
+# Created at 2024-09-29T09:46:03.480
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.480
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+
+# Created at 2024-09-29T09:46:03.481
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:03.482
+Unexpected IOException with stream: 	... 26 more
+
+# Created at 2024-09-29T09:46:03.483
+Unexpected IOException with stream: 
+
+
+# Created at 2024-09-29T09:46:13.484
+Unexpected IOException with stream: Max attempts reached. Download report section not found.
+
+
+# Created at 2024-09-29T09:46:13.485
+Unexpected IOException with stream: 2024-09-29 09:46:13 INFO  entrata_tests.DownloadReportTest :67 - Verify user is able to click on download report button
+
+

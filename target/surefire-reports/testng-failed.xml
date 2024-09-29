@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="entrata_tests.CheckBrokenLinkOfPageTest">
+        <methods>
+          <include name="setupConfig"/>
+          <include name="afterMethod"/>
+          <include name="verifyBrokenLinkFromPage"/>
+          <include name="beforeMethod"/>
+          <include name="loginAsBuyer"/>
+        </methods>
+      </class> <!-- entrata_tests.CheckBrokenLinkOfPageTest -->
+      <class name="entrata_tests.LoginTest">
+        <methods>
+          <include name="setupConfig"/>
+          <include name="afterMethod"/>
+          <include name="loginAsBuyer"/>
+          <include name="verifyDownloadReport"/>
+          <include name="beforeMethod"/>
+          <include name="verifyDownloadReportInvalidData"/>
+        </methods>
+      </class> <!-- entrata_tests.LoginTest -->
+      <class name="entrata_tests.DownloadReportTest">
+        <methods>
+          <include name="setupConfig"/>
+          <include name="afterMethod"/>
+          <include name="verifyDownloadReportInvalidData"/>
+          <include name="verifyDownloadReport"/>
+          <include name="beforeMethod"/>
+          <include name="loginAsBuyer"/>
+        </methods>
+      </class> <!-- entrata_tests.DownloadReportTest -->
+      <class name="entrata_tests.HomePageTest">
+        <methods>
+          <include name="setupConfig"/>
+          <include name="afterMethod"/>
+          <include name="loginAsBuyer"/>
+          <include name="beforeMethod"/>
+          <include name="verifyHomePageNavigations"/>
+        </methods>
+      </class> <!-- entrata_tests.HomePageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -1,0 +1,522 @@
+2024-09-28 09:23:31 INFO  HomePageTest:55 - verifyAvailabilityStatus is passed
+2024-09-28 09:28:51 INFO  HomePageTest:55 - verifyAvailabilityStatus is passed
+2024-09-28 09:32:31 INFO  HomePageTest:55 - verifyAvailabilityStatus is passed
+2024-09-28 17:11:32 INFO  HomePageTest:67 - Verify user is on home page
+2024-09-28 17:11:33 INFO  HomePageTest:67 - Verify user redirects to schedule demo page
+2024-09-28 17:11:35 INFO  HomePageTest:38 - Schedule Demo button is not Clickable
+2024-09-28 17:11:50 INFO  HomePageTest:91 - Schedule Demo Header is not Displayed
+2024-09-28 17:11:50 INFO  HomePageTest:67 - User redirects to Property Management Software | Entrata instead of Schedule demo page
+2024-09-28 17:46:51 INFO  HomePageTest:67 - Verify user is on home page
+2024-09-28 17:47:08 INFO  HomePageTest:91 - Home page header is not Displayed
+2024-09-28 17:50:20 INFO  HomePageTest:67 - Verify user is on home page
+2024-09-28 17:50:21 INFO  HomePageTest:67 - Verify user redirects to schedule demo page
+2024-09-28 17:50:37 INFO  HomePageTest:91 - Schedule Demo Header is not Displayed
+2024-09-28 17:50:37 INFO  HomePageTest:67 - User redirects to Property Management Software | Entrata instead of Schedule demo page
+2024-09-28 17:57:24 INFO  HomePageTest:67 - Verify user is on home page
+2024-09-28 17:57:26 INFO  HomePageTest:67 - Verify user redirects to schedule demo page
+2024-09-28 17:57:27 INFO  HomePageTest:38 - Schedule Demo button is not Clickable
+2024-09-28 17:57:43 INFO  HomePageTest:91 - Schedule Demo Header is not Displayed
+2024-09-28 17:57:43 INFO  HomePageTest:67 - User redirects to Property Management Software | Entrata instead of Schedule demo page
+2024-09-28 18:03:54 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/ - Response Code: 200
+2024-09-28 18:03:55 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/property-management - Response Code: 200
+2024-09-28 18:03:55 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentpay - Response Code: 200
+2024-09-28 18:03:56 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:03:56 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/bi - Response Code: 200
+2024-09-28 18:03:56 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/revenue-intelligence - Response Code: 200
+2024-09-28 18:03:57 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/srm - Response Code: 200
+2024-09-28 18:03:57 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/access-control - Response Code: 200
+2024-09-28 18:03:58 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/message-center - Response Code: 200
+2024-09-28 18:03:58 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/facility-management - Response Code: 200
+2024-09-28 18:03:58 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/reporting - Response Code: 200
+2024-09-28 18:03:59 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/sitetablet - Response Code: 200
+2024-09-28 18:03:59 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/business-consulting - Response Code: 200
+2024-09-28 18:04:00 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/training - Response Code: 200
+2024-09-28 18:04:00 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:04:00 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/prospectportal - Response Code: 200
+2024-09-28 18:04:01 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/rent-reporting - Response Code: 200
+2024-09-28 18:04:01 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/renters-insurance - Response Code: 200
+2024-09-28 18:04:02 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://entrata.com/homebody-rewards - Response Code: 200
+2024-09-28 18:04:03 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/leadmanager - Response Code: 200
+2024-09-28 18:04:03 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/digital-marketing - Response Code: 200
+2024-09-28 18:04:03 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-strategy - Response Code: 200
+2024-09-28 18:04:04 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/reputationadvisor - Response Code: 200
+2024-09-28 18:04:04 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:04:05 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/deposit-alternative - Response Code: 200
+2024-09-28 18:04:05 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentverify - Response Code: 200
+2024-09-28 18:04:05 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:06 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/verification-of-income - Response Code: 200
+2024-09-28 18:04:06 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/redd - Response Code: 200
+2024-09-28 18:04:06 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/accounting - Response Code: 200
+2024-09-28 18:04:07 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/general-accounting - Response Code: 200
+2024-09-28 18:04:07 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/budgeting - Response Code: 200
+2024-09-28 18:04:07 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/job-costing - Response Code: 200
+2024-09-28 18:04:08 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:04:08 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/procure-to-pay - Response Code: 200
+2024-09-28 18:04:09 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:04:12 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentutility - Response Code: 200
+2024-09-28 18:04:14 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utility-expense-management - Response Code: 200
+2024-09-28 18:04:16 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utility-procurement - Response Code: 200
+2024-09-28 18:04:18 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/sales-tax-audits - Response Code: 200
+2024-09-28 18:04:20 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/sustainable-energy-management - Response Code: 200
+2024-09-28 18:04:20 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/property-management - Response Code: 200
+2024-09-28 18:04:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentpay - Response Code: 200
+2024-09-28 18:04:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:04:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/bi - Response Code: 200
+2024-09-28 18:04:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/revenue-intelligence - Response Code: 200
+2024-09-28 18:04:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/srm - Response Code: 200
+2024-09-28 18:04:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/access-control - Response Code: 200
+2024-09-28 18:04:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/message-center - Response Code: 200
+2024-09-28 18:04:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/facility-management - Response Code: 200
+2024-09-28 18:04:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/reporting - Response Code: 200
+2024-09-28 18:04:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/sitetablet - Response Code: 200
+2024-09-28 18:04:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/business-consulting - Response Code: 200
+2024-09-28 18:04:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/training - Response Code: 200
+2024-09-28 18:04:23 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/leasing-center - Response Code: 200
+2024-09-28 18:04:23 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:04:23 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/prospectportal - Response Code: 200
+2024-09-28 18:04:23 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/rent-reporting - Response Code: 200
+2024-09-28 18:04:23 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/renters-insurance - Response Code: 200
+2024-09-28 18:04:24 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://entrata.com/homebody-rewards - Response Code: 200
+2024-09-28 18:04:24 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/leadmanager - Response Code: 200
+2024-09-28 18:04:25 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/digital-marketing - Response Code: 200
+2024-09-28 18:04:25 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-strategy - Response Code: 200
+2024-09-28 18:04:25 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/reputationadvisor - Response Code: 200
+2024-09-28 18:04:25 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:04:25 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/deposit-alternative - Response Code: 200
+2024-09-28 18:04:25 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentverify - Response Code: 200
+2024-09-28 18:04:25 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:25 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/verification-of-income - Response Code: 200
+2024-09-28 18:04:25 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/redd - Response Code: 200
+2024-09-28 18:04:25 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/accounting - Response Code: 200
+2024-09-28 18:04:25 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/general-accounting - Response Code: 200
+2024-09-28 18:04:26 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/budgeting - Response Code: 200
+2024-09-28 18:04:26 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/job-costing - Response Code: 200
+2024-09-28 18:04:26 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:04:26 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/procure-to-pay - Response Code: 200
+2024-09-28 18:04:26 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:04:26 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentutility - Response Code: 200
+2024-09-28 18:04:26 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utility-expense-management - Response Code: 200
+2024-09-28 18:04:26 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utility-procurement - Response Code: 200
+2024-09-28 18:04:26 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/sales-tax-audits - Response Code: 200
+2024-09-28 18:04:26 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/sustainable-energy-management - Response Code: 200
+2024-09-28 18:04:27 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/operating-system - Response Code: 200
+2024-09-28 18:04:27 INFO  CheckBrokenLinkOfPageTest:67 - Exception for URL: tel:1.800.700.2097 - unknown protocol: tel
+2024-09-28 18:04:27 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/solutions-overview - Response Code: 200
+2024-09-28 18:04:30 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/multifamily - Response Code: 200
+2024-09-28 18:04:31 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/student - Response Code: 200
+2024-09-28 18:04:33 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/affordable - Response Code: 200
+2024-09-28 18:04:34 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/military - Response Code: 200
+2024-09-28 18:04:34 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/commercial - Response Code: 200
+2024-09-28 18:04:34 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:04:38 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/resources - Response Code: 200
+2024-09-28 18:04:38 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/resources - Response Code: 200
+2024-09-28 18:04:41 INFO  CheckBrokenLinkOfPageTest:67 - Exception for URL: http://resources/ - resources
+2024-09-28 18:04:42 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/resident-experts - Response Code: 200
+2024-09-28 18:04:42 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/blog - Response Code: 200
+2024-09-28 18:04:43 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://summit.entrata.com/ - Response Code: 200
+2024-09-28 18:04:45 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/watch-demo.html - Response Code: 200
+2024-09-28 18:04:45 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/sign-in - Response Code: 200
+2024-09-28 18:04:45 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:46 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/property-management - Response Code: 200
+2024-09-28 18:04:46 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentpay - Response Code: 200
+2024-09-28 18:04:46 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:04:46 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/bi - Response Code: 200
+2024-09-28 18:04:47 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/revenue-management - Response Code: 200
+2024-09-28 18:04:47 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/srm - Response Code: 200
+2024-09-28 18:04:47 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/access-control - Response Code: 200
+2024-09-28 18:04:47 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/message-center - Response Code: 200
+2024-09-28 18:04:47 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/facility-management - Response Code: 200
+2024-09-28 18:04:47 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/reporting - Response Code: 200
+2024-09-28 18:04:47 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/sitetablet - Response Code: 200
+2024-09-28 18:04:48 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/business-consulting - Response Code: 200
+2024-09-28 18:04:48 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:48 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:04:48 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/prospectportal - Response Code: 200
+2024-09-28 18:04:48 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/rent-reporting - Response Code: 200
+2024-09-28 18:04:48 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/renters-insurance - Response Code: 200
+2024-09-28 18:04:48 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/leadmanager - Response Code: 200
+2024-09-28 18:04:48 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/digital-marketing - Response Code: 200
+2024-09-28 18:04:48 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-strategy - Response Code: 200
+2024-09-28 18:04:48 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/reputationadvisor - Response Code: 200
+2024-09-28 18:04:49 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:04:49 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/deposit-alternative - Response Code: 200
+2024-09-28 18:04:49 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentverify - Response Code: 200
+2024-09-28 18:04:49 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:49 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/verification-of-income - Response Code: 200
+2024-09-28 18:04:49 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/leasing-center - Response Code: 200
+2024-09-28 18:04:49 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/accounting - Response Code: 200
+2024-09-28 18:04:49 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/general-accounting - Response Code: 200
+2024-09-28 18:04:49 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/budgeting - Response Code: 200
+2024-09-28 18:04:49 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/job-costing - Response Code: 200
+2024-09-28 18:04:49 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:04:49 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:04:50 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentutility - Response Code: 200
+2024-09-28 18:04:50 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utility-expense-management - Response Code: 200
+2024-09-28 18:04:50 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utility-procurement - Response Code: 200
+2024-09-28 18:04:50 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/sales-tax-audits - Response Code: 200
+2024-09-28 18:04:50 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/sustainable-energy-management - Response Code: 200
+2024-09-28 18:04:50 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/property-management - Response Code: 200
+2024-09-28 18:04:50 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentpay - Response Code: 200
+2024-09-28 18:04:50 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:04:50 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/bi - Response Code: 200
+2024-09-28 18:04:51 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/revenue-management - Response Code: 200
+2024-09-28 18:04:51 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/srm - Response Code: 200
+2024-09-28 18:04:51 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/access-control - Response Code: 200
+2024-09-28 18:04:51 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/message-center - Response Code: 200
+2024-09-28 18:04:51 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/facility-management - Response Code: 200
+2024-09-28 18:04:51 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/reporting - Response Code: 200
+2024-09-28 18:04:52 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/sitetablet - Response Code: 200
+2024-09-28 18:04:52 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/business-consulting - Response Code: 200
+2024-09-28 18:04:52 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:52 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/leasing-center - Response Code: 200
+2024-09-28 18:04:52 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:04:52 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/prospectportal - Response Code: 200
+2024-09-28 18:04:52 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/rent-reporting - Response Code: 200
+2024-09-28 18:04:52 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/renters-insurance - Response Code: 200
+2024-09-28 18:04:52 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/leadmanager - Response Code: 200
+2024-09-28 18:04:52 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/digital-marketing - Response Code: 200
+2024-09-28 18:04:52 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-strategy - Response Code: 200
+2024-09-28 18:04:52 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/reputationadvisor - Response Code: 200
+2024-09-28 18:04:53 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:04:53 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/deposit-alternative - Response Code: 200
+2024-09-28 18:04:53 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentverify - Response Code: 200
+2024-09-28 18:04:53 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:53 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/verification-of-income - Response Code: 200
+2024-09-28 18:04:53 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/leasing-center - Response Code: 200
+2024-09-28 18:04:53 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/accounting - Response Code: 200
+2024-09-28 18:04:53 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/general-accounting - Response Code: 200
+2024-09-28 18:04:53 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/budgeting - Response Code: 200
+2024-09-28 18:04:53 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/job-costing - Response Code: 200
+2024-09-28 18:04:53 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:04:53 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:04:54 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentutility - Response Code: 200
+2024-09-28 18:04:54 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utility-expense-management - Response Code: 200
+2024-09-28 18:04:54 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utility-procurement - Response Code: 200
+2024-09-28 18:04:54 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/sales-tax-audits - Response Code: 200
+2024-09-28 18:04:54 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/sustainable-energy-management - Response Code: 200
+2024-09-28 18:04:54 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:54 INFO  CheckBrokenLinkOfPageTest:67 - Exception for URL: tel:1.800.700.2097 - unknown protocol: tel
+2024-09-28 18:04:54 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:54 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:54 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:54 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:54 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:54 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:54 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:04:54 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:55 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:55 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:55 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:55 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:56 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://summit.entrata.com/ - Response Code: 200
+2024-09-28 18:04:57 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/watch-demo.html - Response Code: 200
+2024-09-28 18:04:58 INFO  CheckBrokenLinkOfPageTest:67 - Exception for URL: https://www.entrata.webflow.io/sign-in - No subject alternative DNS name matching www.entrata.webflow.io found.
+2024-09-28 18:04:58 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/schedule-demo.html - Response Code: 200
+2024-09-28 18:04:58 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:04:59 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/schedule-demo.html - Response Code: 200
+2024-09-28 18:04:59 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:05:00 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://basecamp.entrata.com/ - Response Code: 200
+2024-09-28 18:05:02 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/resource/forrester-tei-webinar - Response Code: 200
+2024-09-28 18:05:02 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:05:03 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:05:04 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://ai.entrata.com/ - Response Code: 200
+2024-09-28 18:05:04 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://ai.entrata.com/ - Response Code: 200
+2024-09-28 18:05:04 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:05:04 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:05:05 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:05:05 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:05:07 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/schedule-demo.html - Response Code: 200
+2024-09-28 18:05:07 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/schedule-demo.html - Response Code: 200
+2024-09-28 18:05:07 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:05:07 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:05:08 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:05:08 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:05:08 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://ai.entrata.com/ - Response Code: 200
+2024-09-28 18:05:08 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://ai.entrata.com/ - Response Code: 200
+2024-09-28 18:05:08 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:05:08 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:05:08 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:05:08 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:05:08 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:05:08 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:05:09 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/schedule-demo.html - Response Code: 200
+2024-09-28 18:05:10 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/schedule-demo.html - Response Code: 200
+2024-09-28 18:05:10 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:05:10 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:05:10 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:05:11 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:05:11 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:05:11 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:05:11 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://ai.entrata.com/ - Response Code: 200
+2024-09-28 18:05:12 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://ai.entrata.com/ - Response Code: 200
+2024-09-28 18:05:12 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:05:12 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:05:13 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:05:13 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:05:14 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/schedule-demo.html - Response Code: 200
+2024-09-28 18:05:15 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/schedule-demo.html - Response Code: 200
+2024-09-28 18:05:15 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:05:15 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:05:16 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:05:16 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:05:16 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:05:16 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:05:16 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://ai.entrata.com/ - Response Code: 200
+2024-09-28 18:05:17 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://ai.entrata.com/ - Response Code: 200
+2024-09-28 18:05:17 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:05:17 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:05:17 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:05:17 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:05:18 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/schedule-demo.html - Response Code: 200
+2024-09-28 18:05:18 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/schedule-demo.html - Response Code: 200
+2024-09-28 18:05:18 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:05:18 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:05:18 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:05:18 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:05:19 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:05:19 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:05:19 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://ai.entrata.com/ - Response Code: 200
+2024-09-28 18:05:19 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://ai.entrata.com/ - Response Code: 200
+2024-09-28 18:05:19 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:05:19 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:05:19 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:05:19 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:05:19 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:05:19 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:05:20 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/schedule-demo.html - Response Code: 200
+2024-09-28 18:05:20 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/schedule-demo.html - Response Code: 200
+2024-09-28 18:05:20 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:05:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:05:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:05:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:05:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:05:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:05:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:05:21 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:05:22 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://ai.entrata.com/ - Response Code: 200
+2024-09-28 18:05:22 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://ai.entrata.com/ - Response Code: 200
+2024-09-28 18:05:22 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:05:22 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:05:22 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:05:22 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:05:23 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/schedule-demo.html - Response Code: 200
+2024-09-28 18:05:23 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/schedule-demo.html - Response Code: 200
+2024-09-28 18:05:23 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:05:24 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:05:24 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:05:24 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:05:24 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:05:24 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:05:24 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/schedule-demo.html - Response Code: 200
+2024-09-28 18:05:25 INFO  CheckBrokenLinkOfPageTest:67 - Broken link: https://www.g2.com/products/entrata/reviews - Response Code: 403
+2024-09-28 18:05:27 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://policies.google.com/privacy - Response Code: 200
+2024-09-28 18:05:27 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://policies.google.com/terms - Response Code: 200
+2024-09-28 18:05:28 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/resource/the-role-of-ai-in-multifamily-webinar - Response Code: 200
+2024-09-28 18:05:28 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/entrata-economics-of-rent-credit-reporting.html - Response Code: 200
+2024-09-28 18:05:29 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://go.entrata.com/automation-for-ap-processes.html - Response Code: 200
+2024-09-28 18:05:29 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/resources - Response Code: 200
+2024-09-28 18:05:29 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/property-management - Response Code: 200
+2024-09-28 18:05:29 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentpay - Response Code: 200
+2024-09-28 18:05:29 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentportal - Response Code: 200
+2024-09-28 18:05:29 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/bi - Response Code: 200
+2024-09-28 18:05:29 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/revenue-intelligence - Response Code: 200
+2024-09-28 18:05:29 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/srm - Response Code: 200
+2024-09-28 18:05:30 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/access-control - Response Code: 200
+2024-09-28 18:05:30 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/message-center - Response Code: 200
+2024-09-28 18:05:30 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/facility-management - Response Code: 200
+2024-09-28 18:05:30 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/reporting - Response Code: 200
+2024-09-28 18:05:30 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/sitetablet - Response Code: 200
+2024-09-28 18:05:30 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-and-leasing - Response Code: 200
+2024-09-28 18:05:30 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/prospectportal - Response Code: 200
+2024-09-28 18:05:30 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/leadmanager - Response Code: 200
+2024-09-28 18:05:30 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/digital-marketing - Response Code: 200
+2024-09-28 18:05:30 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/marketing-strategy - Response Code: 200
+2024-09-28 18:05:31 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/reputationadvisor - Response Code: 200
+2024-09-28 18:05:31 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/resident-services - Response Code: 200
+2024-09-28 18:05:31 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/renters-insurance - Response Code: 200
+2024-09-28 18:05:31 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/deposit-alternative - Response Code: 200
+2024-09-28 18:05:31 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentverify - Response Code: 200
+2024-09-28 18:05:32 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/preciseid - Response Code: 200
+2024-09-28 18:05:32 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/verification-of-income - Response Code: 200
+2024-09-28 18:05:32 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/redd - Response Code: 200
+2024-09-28 18:05:32 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/accounting - Response Code: 200
+2024-09-28 18:05:32 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/general-accounting - Response Code: 200
+2024-09-28 18:05:32 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/budgeting - Response Code: 200
+2024-09-28 18:05:32 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/job-costing - Response Code: 200
+2024-09-28 18:05:33 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/billpay - Response Code: 200
+2024-09-28 18:05:33 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utilities - Response Code: 200
+2024-09-28 18:05:33 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/residentutility - Response Code: 200
+2024-09-28 18:05:33 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utility-expense-management - Response Code: 200
+2024-09-28 18:05:33 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/utility-procurement - Response Code: 200
+2024-09-28 18:05:33 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/sales-tax-audits - Response Code: 200
+2024-09-28 18:05:33 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/sustainable-energy-management - Response Code: 200
+2024-09-28 18:05:34 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/solutions-overview - Response Code: 200
+2024-09-28 18:05:34 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/multifamily - Response Code: 200
+2024-09-28 18:05:34 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/student - Response Code: 200
+2024-09-28 18:05:34 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/affordable - Response Code: 200
+2024-09-28 18:05:34 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/military - Response Code: 200
+2024-09-28 18:05:34 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/commercial - Response Code: 200
+2024-09-28 18:05:34 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/operating-system - Response Code: 200
+2024-09-28 18:05:34 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://ai.entrata.com/ - Response Code: 200
+2024-09-28 18:05:34 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/training - Response Code: 200
+2024-09-28 18:05:34 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/products/business-consulting - Response Code: 200
+2024-09-28 18:05:35 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://summit.entrata.com/ - Response Code: 200
+2024-09-28 18:05:35 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/resources - Response Code: 200
+2024-09-28 18:05:35 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/blog - Response Code: 200
+2024-09-28 18:05:35 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/careers - Response Code: 200
+2024-09-28 18:05:36 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/entrata-cares - Response Code: 200
+2024-09-28 18:05:37 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/partners - Response Code: 200
+2024-09-28 18:05:38 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/legal - Response Code: 200
+2024-09-28 18:05:39 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://docs.entrata.com/api/v1/documentation - Response Code: 200
+2024-09-28 18:05:40 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/integrations - Response Code: 200
+2024-09-28 18:05:40 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://docs.entrata.com/theme-gallery - Response Code: 200
+2024-09-28 18:05:41 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:05:42 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.facebook.com/ENTRATAsoftware - Response Code: 200
+2024-09-28 18:05:44 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.instagram.com/entratasoftware - Response Code: 200
+2024-09-28 18:05:45 INFO  CheckBrokenLinkOfPageTest:67 - Broken link: https://twitter.com/entratasoftware - Response Code: 403
+2024-09-28 18:05:46 INFO  CheckBrokenLinkOfPageTest:67 - Broken link: http://www.linkedin.com/company/entratasoftware - Response Code: 999
+2024-09-28 18:05:47 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.youtube.com/entrata - Response Code: 200
+2024-09-28 18:05:47 INFO  CheckBrokenLinkOfPageTest:67 - Exception for URL: tel:866.807.0880 - unknown protocol: tel
+2024-09-28 18:05:48 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/terms-of-use - Response Code: 200
+2024-09-28 18:05:48 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/privacy-policy - Response Code: 200
+2024-09-28 18:05:48 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/accessibility-statement - Response Code: 200
+2024-09-28 18:05:49 INFO  CheckBrokenLinkOfPageTest:67 - Broken link: https://residentportal.com/ - Response Code: 405
+2024-09-28 18:05:50 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:05:50 INFO  CheckBrokenLinkOfPageTest:67 - Valid link: https://www.entrata.com/a# - Response Code: 200
+2024-09-28 18:05:50 INFO  CheckBrokenLinkOfPageTest:55 - verifyBrokenLinkFromPage is passed
+2024-09-28 18:07:04 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-28 18:07:05 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-28 18:10:23 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-28 18:10:23 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-28 18:12:45 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-28 18:12:45 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-28 18:14:25 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-28 18:14:25 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-28 18:15:53 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-28 18:15:54 INFO  LoginTest:67 - Verify user is able to click sign In button
+2024-09-28 18:15:56 INFO  LoginTest:67 - Verify user redirects to Sign In page
+2024-09-28 18:15:57 INFO  LoginTest:67 - User is on Login Page
+2024-09-28 18:15:57 INFO  LoginTest:67 - Verify user redirects to property manager login page
+2024-09-28 18:16:01 INFO  LoginTest:67 - User is on Property Login Page
+2024-09-28 18:16:01 INFO  LoginTest:67 - Verify error shown for Invalid credentials
+2024-09-28 18:16:01 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-28 18:16:18 INFO  LoginTest:91 - Home page header is not Displayed
+2024-09-28 18:17:03 INFO  LoginTest:118 - verifyDownloadReport is Skipped
+2024-09-28 18:17:03 INFO  LoginTest:118 - verifyDownloadReportInvalidData is Skipped
+2024-09-28 18:19:35 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-28 18:19:50 INFO  LoginTest:91 - Logo is not Displayed
+2024-09-28 18:19:51 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-28 18:19:52 INFO  LoginTest:67 - Verify user is able to click sign In button
+2024-09-28 18:19:54 INFO  LoginTest:38 - Sign In button is not Clickable
+2024-09-28 18:19:54 INFO  LoginTest:67 - Verify user redirects to Sign In page
+2024-09-28 18:19:55 INFO  LoginTest:67 - User redirects to Property Management Software | Entrata instead of Login page
+2024-09-28 18:20:50 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-28 18:21:06 INFO  LoginTest:91 - Logo is not Displayed
+2024-09-28 18:21:06 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-28 18:21:08 INFO  LoginTest:67 - Verify user is able to click sign In button
+2024-09-28 18:21:09 INFO  LoginTest:38 - Sign In button is not Clickable
+2024-09-28 18:21:09 INFO  LoginTest:67 - Verify user redirects to Sign In page
+2024-09-28 18:21:10 INFO  LoginTest:67 - User redirects to Property Management Software | Entrata instead of Login page
+2024-09-29 08:09:52 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-29 08:09:54 INFO  LoginTest:38 - Logo is not Clickable
+2024-09-29 08:09:56 INFO  LoginTest:67 - Verify user is able to click sign In button
+2024-09-29 08:09:58 INFO  LoginTest:38 - Sign In button is not Clickable
+2024-09-29 08:09:58 INFO  LoginTest:67 - Verify user redirects to Sign In page
+2024-09-29 08:09:59 INFO  LoginTest:67 - User redirects to Property Management Software | Entrata instead of Login page
+2024-09-29 08:10:00 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-29 08:10:01 INFO  LoginTest:67 - Verify user is able to click sign In button
+2024-09-29 08:10:02 INFO  LoginTest:38 - Sign In button is not Clickable
+2024-09-29 08:10:02 INFO  LoginTest:67 - Verify user redirects to Sign In page
+2024-09-29 08:10:03 INFO  LoginTest:67 - User redirects to Property Management Software | Entrata instead of Login page
+2024-09-29 08:16:41 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-29 08:16:58 INFO  LoginTest:91 - Logo is not Displayed
+2024-09-29 08:17:06 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-29 08:17:08 INFO  LoginTest:67 - Verify user is able to click sign In button
+2024-09-29 08:17:12 INFO  LoginTest:38 - Sign In button is not Clickable
+2024-09-29 08:17:12 INFO  LoginTest:67 - Verify user redirects to Sign In page
+2024-09-29 08:17:13 INFO  LoginTest:67 - User redirects to Property Management Software | Entrata instead of Login page
+2024-09-29 08:39:38 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-29 08:39:48 INFO  LoginTest:67 - Verify user is able to click sign In button
+2024-09-29 08:39:59 INFO  LoginTest:38 - Sign In button is not Clickable
+2024-09-29 08:39:59 INFO  LoginTest:67 - Verify user redirects to Sign In page
+2024-09-29 08:40:09 INFO  LoginTest:67 - User redirects to Property Management Software | Entrata instead of Login page
+2024-09-29 08:40:10 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-29 08:40:21 INFO  LoginTest:38 - Logo is not Clickable
+2024-09-29 08:40:31 INFO  LoginTest:67 - Verify user is able to click sign In button
+2024-09-29 08:40:42 INFO  LoginTest:38 - Sign In button is not Clickable
+2024-09-29 08:40:42 INFO  LoginTest:67 - Verify user redirects to Sign In page
+2024-09-29 08:40:52 INFO  LoginTest:67 - User redirects to Property Management Software | Entrata instead of Login page
+2024-09-29 08:43:37 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-29 08:43:37 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-29 08:49:51 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-29 08:50:06 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 08:50:06 INFO  DownloadReportTest:67 - Verify user is able to click on download report button
+2024-09-29 08:50:32 INFO  DownloadReportTest:91 - Download report button is not Displayed
+2024-09-29 08:50:32 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-29 08:50:48 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 08:50:49 INFO  DownloadReportTest:67 - Verify user is able to click on download report button
+2024-09-29 08:52:19 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-29 08:54:04 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-29 08:55:09 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 08:55:29 INFO  DownloadReportTest:67 - Verify user is able to click on download report button
+2024-09-29 08:57:42 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-29 08:57:44 INFO  DownloadReportTest:67 - Verify user is able to click on download report button
+2024-09-29 08:57:55 INFO  DownloadReportTest:38 - Download report button is not Clickable
+2024-09-29 08:57:55 INFO  DownloadReportTest:67 - Verify user redirects to new tab
+2024-09-29 08:58:10 INFO  DownloadReportTest:91 - Download Report page Heading is not Displayed
+2024-09-29 08:58:16 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-29 08:58:16 INFO  DownloadReportTest:67 - Verify user is able to click on download report button
+2024-09-29 08:58:27 INFO  DownloadReportTest:38 - Download report button is not Clickable
+2024-09-29 08:58:27 INFO  DownloadReportTest:67 - Verify user redirects to new tab
+2024-09-29 08:58:43 INFO  DownloadReportTest:91 - Download Report page Heading is not Displayed
+2024-09-29 09:02:13 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-29 09:02:23 INFO  LoginTest:67 - Verify user is able to click sign In button
+2024-09-29 09:02:34 INFO  LoginTest:38 - Sign In button is not Clickable
+2024-09-29 09:02:34 INFO  LoginTest:67 - Verify user redirects to Sign In page
+2024-09-29 09:02:44 INFO  LoginTest:67 - User redirects to Property Management Software | Entrata instead of Login page
+2024-09-29 09:02:45 INFO  LoginTest:67 - Verify user is on homepage
+2024-09-29 09:02:56 INFO  LoginTest:38 - Logo is not Clickable
+2024-09-29 09:03:06 INFO  LoginTest:67 - Verify user is able to click sign In button
+2024-09-29 09:03:18 INFO  LoginTest:38 - Sign In button is not Clickable
+2024-09-29 09:03:18 INFO  LoginTest:67 - Verify user redirects to Sign In page
+2024-09-29 09:03:28 INFO  LoginTest:67 - User redirects to Property Management Software | Entrata instead of Login page
+2024-09-29 09:14:15 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-29 09:14:40 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:14:50 INFO  DownloadReportTest:67 - Verify user is able to click on download report button
+2024-09-29 09:15:14 INFO  DownloadReportTest:38 - Download report button is not Clickable
+2024-09-29 09:15:14 INFO  DownloadReportTest:67 - Verify user redirects to new tab
+2024-09-29 09:15:39 INFO  DownloadReportTest:91 - Download Report page Heading is not Displayed
+2024-09-29 09:15:40 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-29 09:16:55 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:17:07 INFO  DownloadReportTest:67 - Verify user is able to click on download report button
+2024-09-29 09:17:31 INFO  DownloadReportTest:38 - Download report button is not Clickable
+2024-09-29 09:17:31 INFO  DownloadReportTest:67 - Verify user redirects to new tab
+2024-09-29 09:17:56 INFO  DownloadReportTest:91 - Download Report page Heading is not Displayed
+2024-09-29 09:21:28 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-29 09:21:58 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:22:39 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:23:19 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:24:00 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:24:40 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:24:52 INFO  DownloadReportTest:67 - Verify user is able to click on download report button
+2024-09-29 09:25:27 INFO  DownloadReportTest:91 - Download report button is not Displayed
+2024-09-29 09:25:31 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-29 09:25:54 INFO  DownloadReportTest:38 - Logo is not Clickable
+2024-09-29 09:26:44 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:37:26 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-29 09:37:57 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:38:40 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:39:21 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:40:02 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:40:44 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:40:56 INFO  DownloadReportTest:67 - Verify user is able to click on download report button
+2024-09-29 09:41:20 INFO  DownloadReportTest:38 - Download report button is not Clickable
+2024-09-29 09:41:20 INFO  DownloadReportTest:67 - Verify user redirects to new tab
+2024-09-29 09:41:45 INFO  DownloadReportTest:91 - Download Report page Heading is not Displayed
+2024-09-29 09:41:49 INFO  DownloadReportTest:67 - Verify user is able to scroll toward download report section
+2024-09-29 09:43:09 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:43:52 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:44:35 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:45:19 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:46:03 INFO  DownloadReportTest:91 - Download report section is not Displayed
+2024-09-29 09:46:13 INFO  DownloadReportTest:67 - Verify user is able to click on download report button
