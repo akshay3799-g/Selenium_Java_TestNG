@@ -96,4 +96,3 @@ $ mvn site
 **~~NOTE~~:** 
 - Seems like page loading in this website is slow, so if test fails due to page loading, please increase it from Element class with static varible 'waitInSeconds', and from ExplicitWaitng class from method 'waitForPageLoaded()'.
 - Generated extent html report contains screenshot of failed test cases, in case if not able to see it then please open report from file explorer becuase if tries to open from IDE directly it may load from localhost and screenshot will not be visible.
-
